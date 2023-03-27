@@ -1,0 +1,62 @@
+body {
+  background-color: #afa4a4;
+  display: 100%;
+  color: rgb(92, 62, 121);
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  font-size: 35px;
+  font-weight: bold;
+  box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.12);
+  border-radius: 16px;
+}
+
+.new-task {
+  width: 30vh;
+  height: 30vh;
+  padding: 0.2vh 5vh 3vh 0.5vh;
+  box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.12);
+  border-radius: 16px;
+}
+
+#new-task-form {
+  height: 5vh;
+}
+#new-task-text {
+  width: 30vh;
+  height: 15vh;
+}
+
+.task {
+  display: flex;
+  box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.12);
+  border-radius: 16px;
+  color: black;
+}
+
+.description_notCompleted {
+  padding-left: 1vh;
+  width: 70%;
+}
+
+.description_isCompleted {
+  padding-left: 1vh;
+  width: 70%;
+  text-decoration: line-through;
+}
+
+.left_box {
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.12);
+  border-radius: 16px;
+  width: 30%;
+}
+.taskStatusBox {
+  display: flex;
+  align-items: center;
+}
